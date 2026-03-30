@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary:    #0a0a12;
+  --bg-secondary:  #0f0f1e;
+  --bg-card:       #13131f;
+  --accent-violet: #7c3aed;
+  --accent-pink:   #f472b6;
+  --accent-cyan:   #22d3ee;
+  --text-primary:  #f1f5f9;
+  --text-muted:    #94a3b8;
+  --border:        #1e1e38;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-violet);
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(124, 58, 237, 0.3);
+  color: #f1f5f9;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-display {
+    font-family: var(--font-syne), system-ui, sans-serif;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono), "JetBrains Mono", monospace;
+  }
+}

@@ -1,0 +1,58 @@
+export const skills = [
+  {
+    category: "LLM & Agentic AI",
+    color: "violet",
+    items: [
+      { name: "LangChain", icon: "🔗" },
+      { name: "LangGraph", icon: "🕸️" },
+      { name: "OpenAI GPT-4", icon: "🤖" },
+      { name: "RAG Pipelines", icon: "📚" },
+      { name: "Pinecone", icon: "🌲" },
+      { name: "ChromaDB", icon: "🗄️" },
+      { name: "Prompt Engineering", icon: "✍️" },
+      { name: "Multi-Agent Systems", icon: "🤝" },
+    ],
+  },
+  {
+    category: "Computer Vision",
+    color: "cyan",
+    items: [
+      { name: "YOLOv11", icon: "👁️" },
+      { name: "OpenCV", icon: "📷" },
+      { name: "MediaPipe", icon: "🦾" },
+      { name: "ONNX", icon: "⚡" },
+      { name: "Detectron2", icon: "🔍" },
+      { name: "InsightFace", icon: "😀" },
+      { name: "AWS Rekognition", icon: "☁️" },
+      { name: "TensorFlow", icon: "🧠" },
+    ],
+  },
+  {
+    category: "Backend & APIs",
+    color: "pink",
+    items: [
+      { name: "FastAPI", icon: "🚀" },
+      { name: "Python", icon: "🐍" },
+      { name: "PostgreSQL", icon: "🐘" },
+      { name: "WebSockets", icon: "🔌" },
+      { name: "Redis", icon: "🔴" },
+      { name: "REST APIs", icon: "🌐" },
+      { name: "Docker", icon: "🐳" },
+      { name: "n8n", icon: "🔄" },
+    ],
+  },
+  {
+    category: "MLOps & Cloud",
+    color: "violet",
+    items: [
+      { name: "AWS", icon: "☁️" },
+      { name: "GitHub Actions", icon: "⚙️" },
+      { name: "MLflow", icon: "📊" },
+      { name: "Hugging Face", icon: "🤗" },
+      { name: "PyTorch", icon: "🔥" },
+      { name: "Weights & Biases", icon: "📈" },
+      { name: "Linux", icon: "🐧" },
+      { name: "Git", icon: "📝" },
+    ],
+  },
+];
