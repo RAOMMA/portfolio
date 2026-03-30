@@ -2,16 +2,28 @@
 
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { SiUpwork, SiGithub } from "react-icons/si";
+import { SiUpwork, SiGithub, SiFiverr } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import SectionHeading from "./ui/SectionHeading";
 
 const links = [
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/mubashiralimir",
+    href: "https://www.linkedin.com/in/muhammad-mubashir-ali/",
     icon: <FaLinkedinIn size={20} />,
     color: "hover:text-blue-400 hover:border-blue-400/40",
+  },
+  {
+    label: "Upwork",
+    href: "https://upwork.com/freelancers/~01dbe394518365ac48",
+    icon: <SiUpwork size={20} />,
+    color: "hover:text-green-400 hover:border-green-400/40",
+  },
+  {
+    label: "Fiverr",
+    href: "https://www.fiverr.com/s/VYlqgbB",
+    icon: <SiFiverr size={20} />,
+    color: "hover:text-emerald-400 hover:border-emerald-400/40",
   },
   {
     label: "GitHub",
@@ -20,14 +32,8 @@ const links = [
     color: "hover:text-slate-200 hover:border-slate-400/40",
   },
   {
-    label: "Upwork",
-    href: "https://upwork.com/freelancers/mubashirali",
-    icon: <SiUpwork size={20} />,
-    color: "hover:text-green-400 hover:border-green-400/40",
-  },
-  {
     label: "Email",
-    href: "mailto:mubashir@example.com",
+    href: "mailto:muhammadmubashirali63@gmail.com",
     icon: <Mail size={20} />,
     color: "hover:text-violet hover:border-violet/40",
   },
@@ -47,7 +53,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
+        transition={{ duration: 0.6 }}
       >
         {/* Background glow */}
         <div className="absolute inset-0 -z-0">
