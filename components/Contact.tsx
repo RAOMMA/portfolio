@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: "GitHub",
-    href: "https://github.com/mubashiralimir",
+    href: "https://github.com/RAOMMA",
     icon: <SiGithub size={20} />,
     color: "hover:text-slate-200 hover:border-slate-400/40",
   },
